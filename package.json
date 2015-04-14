@@ -1,0 +1,29 @@
+{
+  "name": "deferr",
+  "version": "1.0.0",
+  "description": "A default error function for node style error handling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint . && tape test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dustinhayes/deferr.git"
+  },
+  "keywords": [
+    "errors",
+    "default",
+    "noop",
+    "error-handling"
+  ],
+  "author": "Dustin Hayes <dustinmichaelh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dustinhayes/deferr/issues"
+  },
+  "homepage": "https://github.com/dustinhayes/deferr",
+  "devDependencies": {
+    "jshint": "^2.7.0",
+    "tape": "^4.0.0"
+  }
+}
